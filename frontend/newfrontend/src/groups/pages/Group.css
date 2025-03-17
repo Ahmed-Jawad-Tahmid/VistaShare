@@ -1,0 +1,54 @@
+/* Group.css */
+
+.groupPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .group-header {
+    background-color: rgba(0, 123, 255, 0.8); /* Solid blue background with transparency */
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px; /* Increase bottom margin to prevent overlap with other content */
+    display: flex;
+    flex-direction: column; /* Stack title and subtitle vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Ensure text is centered */
+    position: relative; /* Ensure it stays above other components */
+  }
+  
+  .page-title {
+    font-size: 1rem; /* Increased font size */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    margin-bottom: 15px; /* Increased space between title and subtitle */
+  }
+  
+  .page-subtitle {
+    font-size: 1.4rem; /* Slightly larger subtitle font */
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .no-groups-message {
+    text-align: center;
+    color: #888;
+    font-size: 1.2rem;
+  }
+  
+  .group-header h1,
+  .group-header p {
+    margin: 0;
+    padding: 0;
+  }
+  

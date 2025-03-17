@@ -1,0 +1,7 @@
+Add password and email checking
+
+add group fetching for users 
+
+add post fetching for groups
+
+

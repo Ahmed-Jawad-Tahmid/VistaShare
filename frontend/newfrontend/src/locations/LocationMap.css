@@ -1,0 +1,25 @@
+/* Ensure the body and html take up the full height */
+html, body {
+    height: 100%;
+    margin: 0; /* Remove any default margins */
+}
+
+/* Make the map container take up the full height and width */
+.map-container {
+    height: 100%;
+    width: 100%;
+}
+
+/* Optional: Style for the map */
+.leaflet-container {
+    height: 100% !important; /* Ensure the Leaflet map container takes up full height */
+    display: block;
+    overflow: hidden;
+}
+
+
+.leaflet-tile {
+    image-rendering: -webkit-optimize-contrast; /* Older browsers */
+    image-rendering: pixelated; /* For sharpness */
+    image-rendering: optimizeQuality; /* For newer browsers */
+  }

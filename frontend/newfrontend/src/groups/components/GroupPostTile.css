@@ -1,0 +1,79 @@
+.post_tile {
+  width: 100%;
+  max-width: 600px;
+  margin: 16px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+}
+
+.post_tile:hover {
+  transform: scale(1.02);
+}
+
+.post_tile-header {
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.post_tile-thumbnail {
+  width: 80px;
+  height: 80px;
+  margin-right: 16px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-color: #f0f0f0;
+}
+
+.post_tile-title {
+  flex-grow: 1;
+}
+
+.post_tile-title h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.3;
+}
+
+.post_tile-body {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+.post_tile-metrics {
+  display: flex;
+  align-items: center;
+}
+
+.post_tile-rating {
+  font-size: 14px;
+  color: #888;
+  font-weight: bold;
+}
+
+.post_tile-button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #0079d3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.post_tile-button:hover {
+  background-color: #005a9e;
+}
+

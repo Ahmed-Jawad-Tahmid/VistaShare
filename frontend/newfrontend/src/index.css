@@ -1,0 +1,101 @@
+/* Import Open Sans font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* Global reset for box-sizing and margin */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Set up Open Sans font globally */
+html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+/* Body background and full height */
+body {
+  background-image: url("https://www.travelmanitoba.com/imager/s3_us-west-1_amazonaws_com/manitoba-2020/images/MB_Explore-Churchill-Pass_1250x560_Generic-Header_bc0d2157d501d4729a3d5631708a6b2e.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+/* Ensure root div takes up the full screen */
+
+
+/* Ensure all map containers expand fully */
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* Leaflet map styling, ensure it takes full height */
+.leaflet-container {
+  height: 100% !important;
+}
+
+/* Slide-in animation for elements */
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+/* Center text and other elements */
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.main-header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: rgb(57, 114, 236);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  padding: 0 1rem;
+  z-index: 5;
+}

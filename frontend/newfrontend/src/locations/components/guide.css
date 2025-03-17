@@ -1,0 +1,85 @@
+.city-guide {
+    background: #f9f9f9; /* Light gray background */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Light border */
+    padding-bottom: 20px; /* Ensure space below the city guide */
+}
+
+.add-comment {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; /* Stack text area and button vertically */
+    align-items: flex-start; /* Align to the left */
+    width: 100%;
+    flex: 1;
+}
+
+.comment-textarea {
+    width: 100%;
+    padding: 8px; /* Smaller padding */
+    font-size: 12px; /* Smaller font size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 8px;
+    column-count: 2; /* Space between text area and button */
+    min-height: 10px;
+}
+
+.submit-comment-button {
+    padding: 8px 12px; /* Smaller button size */
+    background-color: #0079d3; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.submit-comment-button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+.city-guide-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0079d3; /* Blue title */
+}
+
+.city-guide-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333; /* Darker text for description */
+}
+
+.city-guide-activities,
+.city-guide-key-points,
+.city-guide-rating,
+.city-guide-date,
+.city-guide-member {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333; /* Darker text */
+}
+
+.city-guide-activities strong,
+.city-guide-key-points strong,
+.city-guide-rating strong,
+.city-guide-date strong,
+.city-guide-member strong {
+    font-weight: bold;
+    color: #0079d3; /* Blue strong text */
+}
+
+.comments {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.comments p {
+    font-size: 14px;
+    color: #888; /* Light gray text for comments */
+}

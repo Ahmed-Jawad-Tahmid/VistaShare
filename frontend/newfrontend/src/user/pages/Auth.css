@@ -1,0 +1,27 @@
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
+
+.userDisplay {
+  background-color: white; /* Sets the background to white */
+  margin: 0 auto;         /* Centers the container horizontally */
+  text-align: center;     /* Centers text and inline content inside the container */
+  padding: 20px;          /* Adds space inside the container */
+  border: 1px solid #ccc; /* Optional: Adds a subtle border for better visibility */
+  border-radius: 10px;    /* Optional: Rounds the corners */
+  width: 80%;             /* Sets the container width to 80% of the page */
+  max-width: 600px;       /* Optional: Restricts maximum width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}

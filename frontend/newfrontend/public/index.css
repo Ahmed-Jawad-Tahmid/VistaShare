@@ -1,0 +1,49 @@
+/* Ensure html and body take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 100px;
+    font-family: Arial, sans-serif; /* Optional, for better default font */
+}
+
+/* Root div should take up the full height and width */
+#root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* or row */
+    gap: 10px; 
+}
+
+/* Full-screen layout */
+#drawer-hook, #modal-hook {
+    position: absolute;
+    z-index: 9999;
+}
+
+/* Ensure that the map container takes up the full screen */
+.map-container {
+    height: 100%;
+    width: 100%;
+}
+
+/* Leaflet map container, make sure it fills the space */
+.leaflet-container {
+    height: 100% !important; /* Force full height */
+}
+
+/* Optional styling for body */
+body {
+    background-color: rgb(53, 53, 53); /* You can change the background color */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    position: relative;
+  }
+  

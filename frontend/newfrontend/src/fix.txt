@@ -1,0 +1,4 @@
+To fix the startup error due to outdated sll run:
+set NODE_OPTIONS=--openssl-legacy-provider
+
+(windows)

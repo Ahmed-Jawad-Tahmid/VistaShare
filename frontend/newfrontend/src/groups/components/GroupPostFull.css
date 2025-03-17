@@ -1,0 +1,83 @@
+/* UserGroups.css */
+.PostBody {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.PostBody h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.PostBody .Metrics {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+}
+
+.PostBody .Metrics button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.PostBody .Metrics button:hover {
+    background-color: goldenrod;
+}
+
+.comment-list {
+    margin-top: 30px;
+}
+
+.comment-list .GroupPostComment {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comment-list .GroupPostComment h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.comment-list .GroupPostComment p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.comment-list .GroupPostComment .Metrics {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.comment-list .GroupPostComment .Metrics button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.comment-list .GroupPostComment .Metrics button:hover {
+    background-color: #218838;
+}
