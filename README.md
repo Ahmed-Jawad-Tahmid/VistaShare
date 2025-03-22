@@ -24,7 +24,7 @@
 ## 🖼️ Screenshots
 
 ### 🔐 Login 
-<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Login.png?raw=true" width="500" height="400" />
+<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Login.png?raw=true" width="500"/>
 
 ### 🌍 Explore locations
 <img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Landing%20page.png?raw=true" width="500"/>
