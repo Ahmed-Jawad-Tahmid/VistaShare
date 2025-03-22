@@ -1,4 +1,5 @@
 # VistaShare
+![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
 
 **VistaShare** is a full-stack location-sharing web application designed for hikers and urban explorers to discover, review, and share lesser-known locations. Built with a focus on community engagement and user-driven content, VistaShare bridges the gap left by traditional mapping tools by offering an interactive platform for sharing hidden gems.
 
@@ -120,7 +121,20 @@ Once both the backend and frontend are running, the website should open automati
 ```
 http://localhost:3000/
 ```
+---
+## 📄 License
 
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit and indicate if changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes.
+
+Full license text available here: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 
