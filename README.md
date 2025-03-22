@@ -27,12 +27,12 @@
 <img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Login.png?raw=true" width="500" height="400" />
 
 ### 🌍 Explore locations
-<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Landing%20page.png?raw=true" width="500" height="400" />
+<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Landing%20page.png?raw=true" width="500"/>
 
 ### 📝 Reviewing & Travel Logs
-<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Location%20Review.png?raw=true" width="500" height="400" />
+<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/Location%20Review.png?raw=true" width="500"/>
 
-<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/My%20Travel%20Log.png?raw=true" width="500" height="400" />
+<img src="https://github.com/Ahmed-Jawad-Tahmid/VistaShare/blob/main/Screenshots/My%20Travel%20Log.png?raw=true" width="500"/>
 
 > *More screenshots available in the `/Screenshots` folder.*
 
